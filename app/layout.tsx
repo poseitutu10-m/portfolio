@@ -17,6 +17,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Phinehas Osei-Tutu | Frontend Developer",
   description: "This is the professional website of Phinehas Osei-Tutu",
+  openGraph: {
+    title: "Phinehas Osei-Tutu | Frontend Developer",
+    description: "This is the professional website of Phinehas Osei-Tutu",
+    url: "https://poseitutu10.vercel.app",
+    siteName: "Phinehas Osei-Tutu | Frontend Developer",
+    images: [
+      {
+        url: "/PHI.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
